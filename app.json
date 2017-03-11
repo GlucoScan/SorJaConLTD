@@ -1,6 +1,6 @@
 {
   "name": "CGM Remote Monitor",
-  "repository": "https://github.com/nightscout/cgm-remote-monitor",
+  "repository": "https://github.com/GlucoScan/SorJaConLTD",
   "env": {
     "MONGO_COLLECTION": {
       "description": "REQUIRED: The mongo collection used for CGM data. Default value is 'entries'. Most users should use the default.",
@@ -14,7 +14,7 @@
     },
     "DISPLAY_UNITS": {
       "description": "Choices: mg/dl and mmol. Setting to mmol puts the entire server into mmol mode by default, no further settings needed.",
-      "value": "",
+      "value": "mmol",
       "required": false
     },
     "ENABLE": {
@@ -69,7 +69,7 @@
     },
     "CUSTOM_TITLE": {
       "description": "Customize the name of the website, usually the name of T1.",
-      "value": "",
+      "value": "GlucoScan",
       "required": false
     },
     "THEME": {
