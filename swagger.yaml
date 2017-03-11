@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: GlucoScan API
-  description: Own your DData with the Nightscout API
+  description: Own your Data with the GlucoScan API
   version: "0.8.0"
   license:
     name: AGPL 3
@@ -19,7 +19,7 @@ paths:
       summary: All Entries matching query
       description: |
         The Entries endpoint returns information about the
-        Nightscout entries.
+        GlucoScan entries.
 
       parameters:
         - name: spec
@@ -59,7 +59,7 @@ paths:
   /slice/{storage}/{field}/{type}/{prefix}/{regex}:
     get:
       summary: All Entries matching query
-      description: The Entries endpoint returns information about the Nightscout entries.
+      description: The Entries endpoint returns information about the GlucoScan entries.
       parameters:
         - name: storage
           in: path
@@ -215,7 +215,7 @@ paths:
   /times/{prefix}/{regex}:
     get:
       summary: All Entries matching query
-      description: The Entries endpoint returns information about the Nightscout entries.
+      description: The Entries endpoint returns information about the GlucoScan entries.
       parameters:
         - name: prefix
           in: path
@@ -258,7 +258,7 @@ paths:
   /entries:
     get:
       summary: All Entries matching query
-      description: The Entries endpoint returns information about the Nightscout entries.
+      description: The Entries endpoint returns information about the GlucoScan entries.
       parameters:
         - name: find
           in: query
@@ -330,7 +330,7 @@ paths:
   /treatments:
     get:
       summary: Treatments
-      description: The Treatments endpoint returns information about the Nightscout treatments.
+      description: The Treatments endpoint returns information about the GlucoScan treatments.
       tags:
         - Treatments
       parameters:
@@ -384,7 +384,7 @@ paths:
   /profile:
     get:
       summary: Profile
-      description: The Profile endpoint returns information about the Nightscout Treatment Profiles.
+      description: The Profile endpoint returns information about the GlucoScan Treatment Profiles.
       tags:
         - Profile
       responses:
@@ -525,7 +525,7 @@ definitions:
         description: 'The git identifier for the running instance of the app.'
       name:
         type: string
-        description: Nightscout (static)
+        description: GlucoScan (static)
       version:
         type: string
         description: 'The version label of the app.'
