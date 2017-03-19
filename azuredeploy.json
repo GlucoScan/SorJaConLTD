@@ -127,7 +127,7 @@
         "on",
         "off"
       ],
-      "defaultValue": "off",
+      "defaultValue": "on",
     },
     "alarm_timeago_warn": {
       "type": "string",
@@ -135,7 +135,7 @@
         "on",
         "off"
       ],
-      "defaultValue": "off",
+      "defaultValue": "on",
     },
     "alarm_urgent_high": {
       "type": "string",
@@ -185,7 +185,7 @@
     },
     "show_plugins": {
       "type": "string",
-      "defaultValue": "careportal basal bwp cob rawbg sage iage treatmentnotify boluscalc profile ",
+      "defaultValue": "bwp cage careportal cob rawbg sage iage boluscalc",
     },
     "show_rawbg": {
       "type": "string",
