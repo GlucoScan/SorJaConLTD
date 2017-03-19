@@ -50,7 +50,7 @@
         "mg/dl",
         "mmol"
       ],
-      "defaultValue": "mg/dl"
+      "defaultValue": "mmol"
     },
     "apiSecret": {
       "type": "string",
@@ -185,7 +185,7 @@
     },
     "show_plugins": {
       "type": "string",
-      "defaultValue": "careportal",
+      "defaultValue": "careportal basal bwp cob rawbg sage iage treatmentnotify boluscalc profile ",
     },
     "show_rawbg": {
       "type": "string",
@@ -194,7 +194,7 @@
         "never",
         "noise"
       ],
-      "defaultValue": "never",
+      "defaultValue": "always",
     },
     "devicestatus_advanced": {
       "type": "string",
