@@ -93,8 +93,8 @@
                     <legend class="translate icon-cog">Settings</legend>
                     <dl class="radio">
                         <dt class="translate">Units</dt>
-                        <dd><input type="radio" name="units-browser" id="mgdl-browser" value="mg/dl" checked /><label for="mgdl-browser">mg/dL</label></dd>
-                        <dd><input type="radio" name="units-browser" id="mmol-browser" value="mmol" /><label for="mmol-browser">mmol/L</label></dd>
+                        <dd><input type="radio" name="units-browser" id="mgdl-browser" value="mg/dl" /><label for="mgdl-browser">mg/dL</label></dd>
+                        <dd><input type="radio" name="units-browser" id="mmol-browser" value="mmol" checked /><label for="mmol-browser">mmol/L</label></dd>
                     </dl>
                     <dl class="radio">
                         <dt class="translate">Date format</dt>
@@ -136,12 +136,12 @@
                         <dd><input type="checkbox" id="alarm-urgentlow-browser" /><label for="alarm-urgentlow-browser" class="translate">Urgent Low Alarm</label></dd>
                         <dd>
                           <input type="checkbox" id="alarm-timeagowarn-browser"/><label for="alarm-timeagowarn-browser" class="translate">Stale Data: Warn</label>
-                          <input type="text" id="alarm-timeagowarnmins-browser" class="timeago-mins" value="15"/>
+                          <input type="text" id="alarm-timeagowarnmins-browser" class="timeago-mins" value="90"/>
                           <span class="translate">mins</span>
                         </dd>
                         <dd>
                           <input type="checkbox" id="alarm-timeagourgent-browser"/><label for="alarm-timeagourgent-browser" class="translate">Stale Data: Urgent</label>
-                          <input type="text" id="alarm-timeagourgentmins-browser" class="timeago-mins" value="30"/>
+                          <input type="text" id="alarm-timeagourgentmins-browser" class="timeago-mins" value="90"/>
                           <span class="translate">mins</span>
                         </dd>
                     </dl>
