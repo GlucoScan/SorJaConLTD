@@ -109,7 +109,7 @@
     },
     "THEME": {
       "description": "Browser default theme setting vaild settings are default or colors",
-      "value": "default",
+      "value": "colors",
       "required": false 
     },
     "ALARM_URGENT_HIGH": {
